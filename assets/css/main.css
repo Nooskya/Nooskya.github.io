@@ -1211,6 +1211,13 @@ input, select, textarea {
 				display: none;	
 			}
 
+			input[type="submit"].icon:before, 
+			input[type="reset"].icon:before, 
+			input[type="button"].icon:before, 
+			button.icon:before, .button.icon:before
+			{
+				margin-left: 10%;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2851,6 +2858,15 @@ input, select, textarea {
 					padding-right: 4em;
 				}
 
+				input[type="submit"].next,
+				input[type="reset"].next,
+				input[type="button"].next,
+				button.marginBottomAction,
+				.button.next.marginBottomAction {
+					padding-right: 3em;
+				}
+				
+				
 			}
 
 		input[type="submit"].primary,
