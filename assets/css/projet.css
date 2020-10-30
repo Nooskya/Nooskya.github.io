@@ -1,0 +1,45 @@
+.innerProject{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.innerProjectPagination{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+.innerProjectPagination > .pagination{
+    font-size: 130%;
+}
+.projets{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+.projet{
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projetText{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+
+.imgProject{
+    min-width: 45%;
+    max-width: 100%;
+    height: auto;
+    margin: 1%;
+}

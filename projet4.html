@@ -6,16 +6,15 @@
 -->
 <html>
 	<head>
-		<title>Calendrier</title>
+		<title>Projets</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="shortcut icon" href="/images/favicon/calendrier.ico" type="image/x-icon">
-		<link rel="stylesheet" href="assets/css/calendrier.css">
+		<link rel="shortcut icon" href="/images/favicon/projet.ico" type="image/x-icon">
+		<link rel="stylesheet" href="assets/css/projet.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script type="text/javascript" src="assets/js/calendrier.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body onLoad="Defaults()" class="is-preload ">
+	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -48,7 +47,7 @@
 							<img src="images/pic07.jpg" alt="" />
 						</span>
 						<header class="major">
-							<h1>Calendrier</h1>
+							<h1>Projet</h1>
 						</header>
 					</div>
 				</section>
@@ -58,57 +57,31 @@
 
 					<!-- One -->
 						<section id="one">
-							<div class="innerFix">
-								<div class="calendrier">
-									<section  id="t" class="main style2">
-										<div class="container">
-											<div class="rows 150%">
-												<div id=NavBar style="position:relative;top:5px;" align="center">
-													<form name="when">
-														<table>
-															<tr class="tableCalendar">
-																<td class="tdPrecedent"><input type="button" id="calendar_button" value="<-- Precedent" onClick="Skip('-')"></td>	
-																	<td>
-																		<select name="month" id="calendar" onChange="On_Month()" id="CalPop">
-
-																			<script language="JavaScript1.2">
-																				if (ie4||ns6){
-																				for (j=0;j<Month_Label.length;j++) {
-																				document.writeln('<option color="#000" value=' + j + '>' + Month_Label[j]);														
-																				}
-																				}
-																			</script>																			
-																		</select>
-																	</td>
-																	<td><input type="text" name="year" id="calendar" size=4 maxlength=4 onKeyPress="return Check_Nums()" onKeyUp="On_Year()"></td>							
-																<td class="tdSuivant"><input type="button" id="calendar_button" value="Suivant -->" onClick="Skip('+')"></td>
-															</tr>															
-														</table>
-													</form>	
-													<div id="Calendar" style="position:relative;top:-2px;" align="center"></div>
-												</div>
-											</div>
-										</div>			
-									</section>
+							<div class="inner innerProject">
+								<div class="projets">
+									
+									<div class="projet">
+										
+									</div>
 								</div>
-
 								
 							</div>
 						</section>
 
-				
-					<!-- Three -->
-						<section id="threeFIX">
-								<div class="vacances">
-									<h4 class="titleFix">Vacances</h4>
-									<div class="traitVac"></div>
-								</div>
-								<div class="stage">
-									<h4 class="titleFix">Stage</h4>
-									<div class="traitSta"></div>
-								</div>
+						<section id="three">
+							<div class="innerProjectPagination  inner">
+								<ul class="pagination">
+									<li><a href="projet3.html" class="button small">Précédent</a></li>
+									<li><a href="projet.html" class="page">1</a></li>
+									<li><a href="projet2.html" class="page">2</a></li>
+									<li><a href="projet3.html" class="page">3</a></li>
+									<li><a href="projet4.html" class="page active">4</a></li>
+									<li><a href="projet5.html" class="page">5</a></li>
+									<li><a href="projet6.html" class="page">6</a></li>
+									<li><a href="projet5.html" class="button small">Suivant</a></li>
+								</ul>
+							</div>
 						</section>
-
 				</div>
 
 				
